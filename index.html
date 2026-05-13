@@ -15,10 +15,11 @@
 </head>
 
 <body>
+
   <!-- HEADER -->
   <header>
     <div class="logo">
-      <img src="img/logo-transparente.png" alt="Logotipo do petshop amigo fiel" width="100" />
+      <img src="img/logo2.png" alt="Logotipo do petshop Amigo Fiel" width="100" />
     </div>
 
     <button id="menu-btn">☰</button>
@@ -26,6 +27,7 @@
     <nav id="menu">
       <a href="#home">Home</a>
       <a href="#servicos">Serviços</a>
+      <a href="#produtos">Produtos</a>
       <a href="#galeria">Galeria</a>
       <a href="#contato">Contato</a>
       <a href="#localizacao">Localização</a>
@@ -36,7 +38,7 @@
   <section id="home" class="hero">
     <div class="hero-content">
       <h1>Cuidando do seu melhor amigo</h1>
-      <p>Banho, tosa, veteriário e muito carinho</p>
+      <p>Banho, tosa, veterinário e muito carinho</p>
       <a href="#contato" class="btn">Agendar Agora</a>
     </div>
   </section>
@@ -44,39 +46,146 @@
   <!-- SERVIÇOS -->
   <section id="servicos" class="container">
     <h2>Nossos Serviços</h2>
+
     <div class="cards">
 
       <div class="card">
-        <img src="img/banho.png" alt="Serviço de banho" />
+        <img src="img/banho2.png" alt="Serviço de banho" />
         <h3>Banho</h3>
-        <p>Banho completo e hidratacao.</p>
+        <p>Banho completo e hidratação.</p>
       </div>
 
       <div class="card">
-        <img src="img/tosa.png" alt="Serviços de banho" />
+        <img src="img/tosa2.png" alt="Serviço de tosa" />
         <h3>Tosa</h3>
-        <p> Tosa profissional para seu pet.</p>
+        <p>Tosa profissional para seu pet.</p>
       </div>
 
       <div class="card">
-        <img src="img/veterinario.png" alt="Serviços de veterinario" />
-        <h3>veterinario</h3>
-        <p> Consultas e vacinas.</p>
+        <img src="img/veterinario2.png" alt="Serviço veterinário" />
+        <h3>Veterinário</h3>
+        <p>Consultas e vacinas.</p>
       </div>
+
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section id="produtos" class="container">
+    <h2>Nossos Produtos</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="img/Cama.png" alt="Cama para pets" />
+        <h3>PetNuvem</h3>
+        <p>Base resistente e antiderrapante.</p>
+      </div>
+
+      <div class="card">
+        <img src="img/pote de racao.png" alt="Pote de ração e água" />
+        <h3>Pote de Ração e Água</h3>
+        <p>Perfeito para cães e gatos.</p>
+      </div>
+
+      <div class="card">
+        <img src="img/bolinha de brinquedo.png" alt="Bolinha de brinquedo" />
+        <h3>Bolinha de Brinquedo</h3>
+        <p>Material resistente e durável.</p>
+      </div>
+
+      <div class="card">
+        <img src="img/arranhador .png" alt="Arranhador para gatos" />
+        <h3>Arranhador para gatos</h3>
+        <p>Estimula e diverte seu gato.</p>
+      </div>
+
+      <div class="card">
+        <img src="img/brinquedoGato.png" alt="Brinquedo para gatos" />
+        <h3>Brinquedo interativo</h3>
+        <p>Ajuda a combater o tédio.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HIGIENE -->
+  <section id="higiene" class="container">
+    <h2>Cuidados e Higiene</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="img/shampoo .png" alt="Shampoo e condicionador" />
+        <h3>Shampoo + Condicionador</h3>
+        <p>Fragrância suave e duradoura.</p>
+      </div>
+
+      <div class="card">
+        <img src="img/fralda.png" alt="Fralda para pets" />
+        <h3>Fralda para Pets</h3>
+        <p>Conforto e proteção diária.</p>
+      </div>
+
+      <div class="card">
+        <img src="img/areiahigienica.png" alt="Areia para gatos" />
+        <h3>Areia para Gatos</h3>
+        <p>Alta absorção de líquidos.</p>
+      </div>
+
+      <div class="card">
+        <img src="img/remedios .png" alt="Medicamentos antipulgas" />
+        <h3>Antipulgas</h3>
+        <p>Combate pulgas e carrapatos.</p>
+      </div>
+
     </div>
   </section>
 
   <!-- GALERIA -->
-  <section id="galeria" class="container"></section>
+  <section id="galeria" class="container">
+    <h2>Galeria de Fotos</h2>
+
+    <div class="galeria">
+      <img src="img/brincadeira1.png" alt="Foto de tosa" />
+      <img src="img/brincadeira2.png" alt="Foto de pets" />
+      <img src="img/brincadeira3.png" alt="Foto de banho" />
+      <img src="img/brincadeira4.png" alt="Foto de veterinário" />
+    </div>
+  </section>
 
   <!-- CONTATO -->
-  <section id="contato" class="container"></section>
+  <section id="contato" class="container">
+    <h2>Entre em Contato</h2>
 
-  <!-- MAPA -->
-  <section id="localizacao" class="container"></section>
+    <form id="formContato">
+      <input type="text" placeholder="Digite seu Nome..." id="nome" name="nome" />
+      <input type="email" placeholder="Digite seu E-mail..." id="email" name="email" />
+      <textarea placeholder="Digite sua Mensagem..." id="mensagem" name="mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- LOCALIZAÇÃO -->
+  <section id="localizacao" class="container">
+    <h2>Como Chegar</h2>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7667978.586198394!2d-50.26259222797371!3d-20.211911239486522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spet%20shop%20amigo%20fiel!5e0!3m2!1spt-BR!2sbr!4v1778673924023!5m2!1spt-BR!2sbr"
+      width="600"
+      height="450"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
 
   <!-- FOOTER -->
-  <footer></footer>
+  <footer>
+    <p>&copy; 2026 PetShop Amigo Fiel. Todos os direitos reservados</p>
+    <p>Instagram | WhatsApp | Facebook</p>
+  </footer>
 
   <script src="js/script.js"></script>
 </body>
