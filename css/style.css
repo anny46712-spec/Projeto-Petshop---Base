@@ -8,6 +8,18 @@
   --radius: 20px;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primario: #ffd54f;
+    --secundaria: #f97316;
+    --escuro: #0f172a;
+    --claro: #ffffff;
+    --texto: #334155;
+    --sombra: 0 8px 30px rgba(0, 0, 0, 0.5);
+    --radius: 20px;
+    --gradientbody:(rgba(79, 79, 79, 0.85), rgba(122, 122, 122, 0.91)),
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -216,7 +228,7 @@ button{
   transition: 0.4s;
 }
 button:hover {
-  background: #026fa6;
+  background: #FFA500;
 }
 
 footer{
@@ -282,7 +294,7 @@ iframe{
   max-width: 700px;
   margin:270px auto;
   text-align: center;
-  border: 4px solid var(--primaria);
+  border: 3px solid #ff8c42;
   border-radius: 15px;
-  padding: 30px;
+  padding: 20px;
 }
